@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="●サイトの検索キーワード●" />
+<meta name="description" content="●サイトの検索説明●" />
+<title>●サイトのタイトル●</title>
+<meta property="og:url" content="●ページの URL●" />
+<meta property="og:type" content="●ページの種類●website article" />
+<meta property="og:title" content="●ページの タイトル●" />
+<meta property="og:description" content="●ページの説明文●" />
+<meta property="og:site_name" content="●サイト名●" />
+<meta property="og:image" content="●サムネイル画像のURL●" />
+<meta name="apple-mobile-web-app-title" content="●iOS表示名●" />
+<meta name="author" content="●作者名●" />
+<link rel="apple-touch-icon" href="iphone.png">
+<link rel="stylesheet" href="css/import.css" media="all" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Noto+Sans+JP:wght@100..900&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body id="home" class="home">
+
+<div id="wrapper">
+	<header id="header" class="clearfix">
+		<div id="pageTopFix">
+			<div class="inBase clearfix">
+				<div class="header__headBox clearfix">
+					<div class="header__siteTitleBox">
+						<h1 class="header__siteTitle"><a href="<?php echo home_url(); ?>">
+							<span><img src="img/common/word26.svg" alt="26" />卒<small>の</small><small>学生向け</small></span>
+							<strong>会社合同説明会</strong>
+							<figure><img src="img/common/siteTitle.png" alt="ひょうご就職サミット2026" /></figure>
+						</a></h1>
+					<!-- /.header__siteTitleBox --></div>
+					<nav class="globalNavi">
+							<ul class="globalNavi__menu__main">
+								<li><a href="<?php echo home_url(); ?>/overview">開催概要</a></li>
+								<li><a href="<?php echo home_url(); ?>/company">出展企業</a>
+								<li><a href="<?php echo home_url(); ?>/voice">先輩参加者の声</a></li>
+								<li><a href="<?php echo home_url(); ?>/data">データで見る就活</a></li>
+								<li><a href="<?php echo home_url(); ?>/question">よくあるご質問</a></li>
+								<li><a href="<?php echo home_url(); ?>/blog">就活お役立つブログ</a></li>
+								<li><a href="<?php echo home_url(); ?>/organization">運営団体</a></li>
+							</ul>
+					<!-- /.globalNavi --></nav>
+        			<!-- /.header__headBox --></div>
+			<!-- /.inBase --></div>
+
+		<!-- /#pageTopFix --></div>
+		
+			<nav class="globalNaviSmall">
+				<div id="globalNaviSmallIcon" class="globalNaviSmall__icon globalNaviSmall__icon--type01">
+					<div class="globalNaviSmall__iconButton">
+						<span class="iconButton--top"></span>
+						<span class="iconButton--middle"></span>
+						<span class="iconButton--bottom"></span>
+					</div>
+				</div>
+
+				<div class="modal micromodal-slide" id="modal-globalNaviSmall" aria-hidden="true">
+					<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				    		<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-globalNaviSmall-labelledby">
+							<div class="globalNaviSmall__menu" id="modal-globalNaviSmall-labelledby">
+								<div class="globalNaviSmall__menu__inner">
+									<div class="globalNaviSmall__titleBox">
+										<figure class="globalNaviSmall__title"><img src="img/common/mainTitle.png" alt="ひょうご就職サミット2026　2025.3/6・7" /></figure>
+										<figure><img src="img/common/mainDate.svg" alt="2025.3.6（THU）-3.7（FRI）開始12：00-終了16：00（受付11：30）@会場/神戸サンポーホール" /></figure>
+									<!-- /.globalNaviSmall__titleBox --></div>
+									<ul class="globalNaviSmall__menu__main">
+										<li><a href="index.html">ホーム</a></li>
+										<li><a href="<?php echo home_url(); ?>/overview">開催概要</a></li>
+										<li><a href="<?php echo home_url(); ?>/company">出展企業</a>
+										<li><a href="<?php echo home_url(); ?>/voice">先輩参加者の声</a></li>
+										<li><a href="<?php echo home_url(); ?>/data">データで見る就活</a></li>
+										<li><a href="<?php echo home_url(); ?>/question">よくあるご質問</a></li>
+										<li><a href="<?php echo home_url(); ?>/blog">就活お役立つブログ</a></li>
+										<li><a href="<?php echo home_url(); ?>/organization">運営団体</a></li>
+									</ul>
+								<!-- /.globalNaviSmall__menu__inner --></div>
+							<!-- /.globalNaviSmall__menu --></div>
+				    		<!-- /.modal__container --></div>
+					<!-- /.modal__overlay --></div>
+				<!-- /#modal-globalNaviSmall --></div>
+
+
+		    <!-- /.globalNaviSmall --></nav>
+	<!-- /#header --></header>
+
+			<div class="inBase clearfix">
+				<section class="mainVisual">
+					<div class="mainVisual__bg">
+						<picture>
+							<source srcset="img/home/bgMainVisual.jpg" media="(min-width: 768px)">
+							<img src="img/home/bgMainVisual_sp.jpg" alt="ひょうご就職サミット">
+						</picture>
+					<!-- /.mainVisual__bg --></div>
+					<div class="mainVisual__titleBox">
+						<h2 class="mainVisual__title">
+							<picture>
+								<source srcset="img/common/mainTitle.svg" media="(min-width: 768px)">
+								<img src="img/common/mainTitle_sp01.svg" alt="ひょうご就職サミット2026　2025.3/6">
+							</picture>
+						</h2>
+						<div class="mainVisual__title02">
+							<img src="img/common/mainTitle_sp02.svg" alt="兵庫を代表する中小企業40社が大集合！">
+						<!-- /.mainVisual__dateBox --></div>
+						<div class="mainVisual__dateBox">
+							<picture>
+								<source srcset="img/common/mainDate.svg" media="(min-width: 768px)">
+								<img src="img/common/mainDate_sp.svg" alt="2025.3.6（THU）開始12：00-終了16：00（受付11：30）@会場/神戸サンポーホール">
+							</picture>
+						<!-- /.mainVisual__dateBox --></div>
+					<!-- /.mainVisual__titleBox --></div>
+					<ul class="mainVisual__featureBox">
+						<li><span>40人の社長</span>に出会える！<span>特別な就活</span>体験</li>
+						<li><span>就職支援のプロ</span>監修！<span>会場限定</span>イベント</li>
+						<li>就活の<span>方向性が明確</span>に！内定獲得者<span>多数</span></li>
+					</ul>
+					<h3 class="mainVisual__chach">
+						<picture>
+							<source srcset="img/home/word_chach.svg" media="(min-width: 768px)">
+							<img src="img/home/word_chach_sp.svg" alt="日本で一番、社長が近い就職説明会！">
+						</picture>
+					<!-- /.mainVisual__chach --></h3>
+					<div class="mainVisual__bannerAdvice">
+						<picture>
+							<source srcset="img/home/bannerAdvice.png" media="(min-width: 768px)">
+							<img src="img/home/bannerAdvice_sp.png" alt="絶対役立つ！5名の専任講師による自己PRのアドバイス！！">
+						</picture>
+					<!-- /.mainVisual__presidentBox --></div>
+					<figure class="mainVisual__persons"><img src="img/home/main_person.png" alt="ひょうご就職サミット 就活中の学生" /></figure>
+					<div class="mainVisual__presidentBox"><span>
+						<figure><img src="img/home/main_president.png" alt="社長たちが応援" /></figure>
+						<figure>
+							<picture>
+								<source srcset="img/home/word_mainSentence01.svg" media="(min-width: 768px)">
+								<img src="img/home/word_mainSentence01_sp.svg" alt="あなたの就活を社長たちが応援します。">
+							</picture>
+						</figure>
+						<figure><img src="img/home/word_mainSentence02.svg" alt="スーツじゃなくてもOK!" /></figure>
+					</span><!-- /.mainVisual__presidentBox --></div>
+					<div class="mainVisual__button"><a href="<?php echo home_url(); ?>/contact">
+						<img src="img/home/mainButton.png" alt="5000円分のAmazonギフトカードをプレゼント　事前参加予約はこちらから">
+					</a></div>
+				<!-- /.mainVisual --></section>
+				<div class="mainVisual__button__sp"><a href="<?php echo home_url(); ?>/contact">
+					<p>事前参加予約と当日ブース訪問5社以上で</p>
+					<p><span>事前予約で最大5,000円分のAMAZONギフトカードプレゼント</span></p>
+					<figure><img src="img/home/mainButtonWord_sp.svg" alt="６０秒で完了！参加予約はこちら"></figure>
+				</a></div>
+			<!-- /.inBase --></div>
+
+
+	<div class="companyFlowBox">
+		<div class="companyFlowBox__inner">
+				<!-- スライダーここから -->
+				<div class="sliderBox--typeFlow01">
+				    <!-- Slider全体のコンテナ -->
+				    <div class="swiper">
+				      <!-- Sliderの内包コンテナ -->
+				      <div class="swiper-wrapper">
+				        <!-- Slideさせたいコンテンツ -->
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo01.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo02.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo03.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo04.png" alt="会社ロゴ" /></figure></div>
+
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo01.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo02.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo03.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo04.png" alt="会社ロゴ" /></figure></div>
+
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo01.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo02.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo03.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo04.png" alt="会社ロゴ" /></figure></div>
+
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo01.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo02.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo03.png" alt="会社ロゴ" /></figure></div>
+					<div class="swiper-slide"><figure class="companyFlowBox__logo"><img src="img/home/imgFlowLogo04.png" alt="会社ロゴ" /></figure></div>
+				      <!-- /swiper-wrapper --></div>
+				    <!-- /swiper --></div>
+				<!-- /.sliderBox--typeFlow --></div>
+				<!-- スライダーここまで -->
+		<!-- /.companyFlowBox__inner --></div>
+	<!-- /.companyFlowBox --></div>
+
+	<div class="button--type02 tC"><a href="<?php echo home_url(); ?>/company-kind">企業一覧ページへ</a></div>
+	
+	<div id="contents" class="clearfix">
+		<div class="inBase clearfix">
+			<div class="homeWorriesBox">
+				<div class="homeWorriesBox__lead"><h3><img src="img/home/leadWorries.svg" alt="兵庫県で就活中の学生さんへ" /></h3></div>
+				<div class="homeWorriesBox__inner clearfix">
+					<div class="homeWorriesBox__idealBox">
+						<h4 class="homeWorriesBox__idealVoice"><img src="img/home/leadIdeal.svg" alt="安定企業で、楽しく働きたい！" /><h4>
+						<ul class="homeWorriesBox__idealList">
+							<li>業績が伸び続けている？</li>
+							<li>ワークライフバランスは？</li>
+							<li>将来も求められ続ける職種？</li>
+							<li>福利厚生が整っている？</li>
+						</ul>
+						<p class="homeWorriesBox__idealBox__sentence">という、<br>理想はあるけれど…</p>
+						<figure class="homeWorriesBox__idealBox__person"><img src="img/home/imgWorriesPerson01.png" alt="理想に悩む就職中の学生" /><figure>
+					<!-- /.homeWorriesBox__idealBox --></div>
+					<div class="homeWorriesBox__arrow">
+						<figure><img src="img/home/imgArrowIdeal.svg" alt="就活をはじめると…" /><figure>
+					<!-- /.homeWorriesBox__startBox --></div>
+					<div class="homeWorriesBox__startBox"><img src="img/home/wordStart.svg" alt="いざ、就活をはじめると…" /></div>
+					<div class="homeWorriesBox__WorriesBox">
+						<div class="homeWorriesBox__Worries">
+							<figure class="homeWorriesBox__Worries__image"><img src="img/home/imgWorries01.png" alt="兵庫県周辺にある業界・職種をあんまり知らない" /></figure>
+							<div class="homeWorriesBox__voiceBox">
+								<figure class="homeWorriesBox__fukidashi"><img src="img/home/fukidashiWorries01.png" alt="兵庫県周辺にある業界・職種をあんまり知らない" /></figure>
+							<!-- /.homeWorriesBox__voiceBox --></div>
+						<!-- /.homeWorriesBox__Worries --></div>
+
+						<div class="homeWorriesBox__Worries">
+							<figure class="homeWorriesBox__Worries__image"><img src="img/home/imgWorries02.png" alt="兵庫県周辺で理想的な働き方を地元で実現したい" /></figure>
+							<div class="homeWorriesBox__voiceBox">
+								<figure class="homeWorriesBox__fukidashi"><img src="img/home/fukidashiWorries02.png" alt="兵庫県周辺で理想的な働き方を地元で実現したい" /></figure>
+							<!-- /.homeWorriesBox__voiceBox --></div>
+						<!-- /.homeWorriesBox__Worries --></div>
+
+						<div class="homeWorriesBox__Worries">
+							<figure class="homeWorriesBox__Worries__image"><img src="img/home/imgWorries03.png" alt="兵庫県周辺で自分に何が向いているかわからない" /></figure>
+							<div class="homeWorriesBox__voiceBox">
+								<figure class="homeWorriesBox__fukidashi"><img src="img/home/fukidashiWorries03.png" alt="兵庫県周辺で何が向いているかわからない" /></figure>
+							<!-- /.homeWorriesBox__voiceBox --></div>
+						<!-- /.homeWorriesBox__Worries --></div>
+
+						<div class="homeWorriesBox__Worries">
+							<figure class="homeWorriesBox__Worries__image"><img src="img/home/imgWorries04.png" alt="兵庫県周辺でやりたい仕事が見つかってない" /></figure>
+							<div class="homeWorriesBox__voiceBox">
+								<figure class="homeWorriesBox__fukidashi">
+									<picture>
+										<source srcset="img/home/fukidashiWorries04.png" media="(min-width: 768px)">
+										<img src="img/home/fukidashiWorries04_sp.png" alt="兵庫県周辺でやりたい仕事が見つかってない">
+									</picture>
+								</figure>
+							<!-- /.homeWorriesBox__voiceBox --></div>
+						<!-- /.homeWorriesBox__Worries --></div>
+					<!-- /.homeWorriesBox__WorriesBox --></div>
+					<figure class="homeWorriesBox__manyWorries"><img src="img/home/wordWorries.svg" alt="不安だらけ…" /></figure>
+					<figure class="homeWorriesBox__person02"><img src="img/home/imgWorriesPerson02.png" alt="悩む就職中の人" /></figure>
+				<!-- /.homeWorriesBox__inner --></div>
+			<!-- /.homeWorriesBox --></div>
+		<!-- /.inBase --></div>
+
+		<div class="homeSolutionBox">
+			<div class="inBase clearfix">
+				<h3 class="homeSolutionBox__title"><img src="img/home/wordSolution.svg" alt="ひょうご就職サミットで解決しよう！" /></h3>
+			<!-- /.inBase --></div>
+		<!-- /.homeSolutionBox --></div>
+
+		<div class="homeAboutBox">
+			<div class="inBase"><div class="inBase__inner">
+				<h3 class="homeAboutBox__title"><img src="img/home/leadSolution.svg" alt="ひょうご就職サミットは単なる合同説明会ではありません！" /></h3>
+				<div class="homeAboutBox__contentBox">
+					<h4>
+						<picture>
+							<source srcset="img/home/wordFeatures.svg" media="(min-width: 768px)">
+							<img src="img/home/wordFeatures_sp.svg" alt="出展企業の社長が全員参加の就職説明会">
+						</picture>
+					</h4>
+					<p>ひょうご就職サミットには、<br class="hidden-pc">兵庫を代表する中小企業とその社長が大集合！<br>
+					あなたに合った会社を見つけ、<br class="hidden-pc">イキイキと活躍できるよう、全力応援。</p>
+					<p><b>「社長！就活がうまくいくか不安です」</b>
+						<b>「社長！やりたいことって、<br class="hidden-pc">どうやって見つけるんですか？」</b></p>
+					<p>そんなお悩みにも社長が親身になって答えます。<br class="hidden-pc">たくさん見て聞いて、将来の選択肢を広げましょう！</p>
+				<!-- /.homeAboutBox__contentBox --></div>
+				<figure class="homeAboutBox__image01"><img src="img/home/imgSolution01.jpg" alt="兵庫での就活の姿" /></figure>
+				<figure class="homeAboutBox__image02"><img src="img/home/imgSolution02.jpg" alt="兵庫での就活の姿" /></figure>
+				<figure class="homeAboutBox__image03"><img src="img/home/imgSolution03.jpg" alt="兵庫での就活の姿" /></figure>
+				<figure class="homeAboutBox__image04"><img src="img/home/imgSolution04.jpg" alt="兵庫での就活の姿" /></figure>
+
+				<div class="seminarBox">
+					<h4 class="seminarBox__title">
+						<picture>
+							<source srcset="img/home/titleSeminar.png" media="(min-width: 768px)">
+							<img src="img/home/titleSeminar_sp.png" alt="就活のプロが教える！就活を成功に導くお役立ちセミナーを実施！">
+						</picture>
+					</h4>
+					<div class="seminarBox__timeBox">
+						<div class="seminarBox__timeItem"><span>
+							<figure><img src="img/home/word12-30.svg" alt="12:30" /></figure>
+							<dl>
+								<dt>『優良企業の見つけ方』</dt>
+								<dd>講師：栗山</dd>
+							</dl>
+						</span><!-- /.seminarBox__timeItem --></div>
+						<div class="seminarBox__timeItem"><span>
+							<figure><img src="img/home/word13-30.svg" alt="13:30" /></figure>
+							<dl>
+								<dt>『自己PR完成要項』</dt>
+								<dd>講師：柳本</dd>
+							</dl>
+						</span><!-- /.seminarBox__timeItem --></div>
+						<div class="seminarBox__timeItem"><span>
+							<figure><img src="img/home/word14-30.svg" alt="14:30" /></figure>
+							<dl>
+								<dt>『ショボいガクチカでも<br>勝てる理由』</dt>
+								<dd>講師：石渡</dd>
+							</dl>
+						</span><!-- /.seminarBox__timeItem --></div>
+						<div class="seminarBox__timeItem"><span>
+							<figure><img src="img/home/word15-30.svg" alt="15:30" /></figure>
+							<dl>
+								<dt>『就活まるごとQ＆A』</dt>
+								<dd>対談：石渡・柳本</dd>
+							</dl>
+						</span><!-- /.seminarBox__timeItem --></div>
+					<!-- /.seminarBox__timeBox --></div>
+					<div class="seminarBox__teacherBox">
+						<div class="seminarBox__teacher">
+							<div class="seminarBox__teacherImage">
+								<figure><img src="img/home/imgTeacher01.jpg" alt="石渡 嶺司" /></figure>
+								<h5>石渡 嶺司</h5>
+							<!-- /.seminarBox__teacherImage --></div>
+							<p>大学ジャーナリスト</p>
+							<p>就活指導のスペシャリスト。マスコミ出演や出版も多くトータル販売部数が68万部を超える。</p>
+						<!-- /.seminarBox__teacher --></div>
+						<div class="seminarBox__teacher">
+							<div class="seminarBox__teacherImage">
+								<figure><img src="img/home/imgTeacher02.jpg" alt="柳本 周介" /></figure>
+								<h5>柳本 周介</h5>
+							<!-- /.seminarBox__teacherImage --></div>
+							<p>オフィスビギン・代表取締役<br>将来塾・塾長</p>
+							<p>日本初の就職支援塾をプロデュース。現在25社の人事顧問を務める。</p>
+						<!-- /.seminarBox__teacher --></div>
+						<div class="seminarBox__teacher">
+							<div class="seminarBox__teacherImage">
+								<figure><img src="img/home/imgTeacher03.jpg" alt="栗山朝亜輝" /></figure>
+								<h5>栗山朝亜輝</h5>
+							<!-- /.seminarBox__teacherImage --></div>
+							<p>オフィスビギン　講師</p>
+							<p>現在14校の大学で非常勤講師を務める。主にキャリア支援、特に自己PR文の添削に定評がある。</p>
+						<!-- /.seminarBox__teacher --></div>
+					<!-- /.seminarBox__teacherBox --></div>
+					<div class="seminarBox__adviceBox">
+						<p>［セミナーの間の時間帯］  自己PＲ文　<br class="hidden-pc">添削・アドバイスタイム　</p>
+						<h4><b>5名の専任講師</b> が 皆さんの<b><br class="hidden-pc">自己ＰＲのアドバイス</b>をします!!</h4>
+					<!-- /.seminarBox__adviceBox --></div>
+				<!-- /.seminarBox --></div>
+
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+			<div class="homeContactBox">
+				<div class="inBase"><div class="inBase__inner">
+					<div class="homeContactBox__contactBox">
+						<p class="homeContactBox__fromHere"><img src="img/home/wordFromHere.svg" alt="事前参加予約はこちらから！" /></p>
+						<p class="homeContactBox__future"><img src="img/home/wordFuture.svg" alt="その一歩であなたの未来は変わる。後悔しない就活を！" /></p>
+						<div class="homeContactBox__buttonBox">
+							<div class="homeContactBox__button"><a href="https://lin.ee/D0ZioFk">
+						                <figure><img src="img/home/iconLine.svg" alt="LINE" /></figure>
+						                <span>LINEで相談する</span>
+							</a></div>
+							<div class="homeContactBox__button"><a href="<?php echo home_url(); ?>/contact">
+						                <i class="fa fa-fw icon-file-text"></i>
+						                <span>フォームで参加予約</span>
+							</a></div>
+						<!-- /.homeContactBox__buttonBox --></div>
+						<div class="homeContactBox__person">
+							<figure><img src="img/home/imgContactPerson.png" alt="希望を持てた兵庫の就職活動中の学生" /></figure>
+							<span><img src="img/home/fukidashiReservation.png" alt="60秒で完了　今すぐ参加予約！" /></span>
+						<!-- /.homeContactBox__person --></div>
+						<h5 class="homeContactBox__afterSentence"><strong>先着100名様限定</strong><span><b>事前エントリー</b><small>で</small>最大6,000円分<small>の</small>AMAZONギフトカード<small>プレゼント</small>！</span><figure><img src="img/home/imgPresent.svg" alt="プレゼント" /></figure></h5>
+					<!-- /.homeContactBox__contactBox --></div>
+				<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+			<!-- /.homeContactBox --></div>
+		<!-- /.homeAboutBox --></div>
+		
+		<div class="homePointBox">
+			<div class="inBase clearfix">
+				<div class="homePointBox__title"><h3><span><img src="img/home/titlePoint.svg" alt="ひょうご就職サミットはここがポイント！" /></span></h3></div>
+
+				<div class="homePointBox__inner">
+					<figure class="homePointBox__image"><img src="img/home/imgPoint01.jpg" alt="ポイントその1" /></figure>
+					<div class="homePointBox__content">
+						<figure class="homePointBox__number"><img src="img/home/titlePoint01.svg" alt="POINT01" /></figure>
+						<h4 class="homePointBox__lead"><img src="img/home/leadPoint01.svg" alt="日本でここだけ！全企業の社長と話ができる" /></h4>
+						<p class="homePointBox__sentence">会社のことを一番知っている社長の話を聞き、<br>
+							働くイメージをより明確に。<br>
+							社長とゆっくり話ができるのは、選考前の今だけです！</p>
+					<!-- /.homePointBox__content --></div>
+				<!-- /.homePointBox__inner --></div>
+
+				<div class="homePointBox__inner">
+					<figure class="homePointBox__image"><img src="img/home/imgPoint02.jpg" alt="ポイントその2" /></figure>
+					<div class="homePointBox__content">
+						<figure class="homePointBox__number"><img src="img/home/titlePoint02.svg" alt="POINT02" /></figure>
+						<h4 class="homePointBox__lead"><img src="img/home/leadPoint02.svg" alt="地元企業と出会える！兵庫県内の優良企業が集結" /></h4>
+						<p class="homePointBox__sentence">サミットに参加するのは、将来のビジョンを明確に持ち、<br>
+							制度や規則が整った中小企業。<br>
+							まだ知らない県内の優良企業に出会えます！</p>
+					<!-- /.homePointBox__content --></div>
+				<!-- /.homePointBox__inner --></div>
+
+				<div class="homePointBox__inner">
+					<figure class="homePointBox__image"><img src="img/home/imgPoint03.jpg" alt="ポイントその3" /></figure>
+					<div class="homePointBox__content">
+						<figure class="homePointBox__number"><img src="img/home/titlePoint03.svg" alt="POINT03" /></figure>
+						<h4 class="homePointBox__lead"><img src="img/home/leadPoint03.svg" alt="不安や悩みを解決！企業への就活相談も大歓迎" /></h4>
+						<p class="homePointBox__sentence">参加企業の一番の願いは、<br>
+							皆さんに後悔のない就活をしていただくこと。<br>
+							社会人の先輩として、各企業が疑問に答えます！</p>
+					<!-- /.homePointBox__content --></div>
+				<!-- /.homePointBox__inner --></div>
+				<figure class="homePointBox__personImage01"><img src="img/home/imgIllustPersons01.png" alt="ひょうご就職サミット2026" /></figure>
+			<!-- /.inBase --></div>
+		<!-- /.homePointBox --></div>
+
+		<div class="homeCompanyBox">
+			<div class="inBase clearfix">
+				<figure class="homeCompanyBox__image">
+					<img src="img/home/imgCompany.jpg" alt="参加企業について" />
+				</figure>
+				<div class="homeCompanyBox__inner">
+					<figure class="homeCompanyBox__personImage01"><img src="img/home/imgIllustPersons02.png" alt="就活生を心から応援！ひょうごを愛する40社が終結" /></figure>
+					<h3 class="homeCompanyBox__title"><img src="img/home/titleCompany.svg" alt="参加企業について" /></h3>
+					<p class="homeCompanyBox__sentence">皆さんの後悔しない就活を、全参加企業が応援！<br>
+						兵庫就職を考えている方はもちろん、<br>
+						迷っている方も全力でサポートします。</p>
+					<div class="homeCompanyBox__buttonBox">
+						<div class="homeCompanyBox__button"><a href="<?php echo home_url(); ?>/company">企業一覧ページへ</a></div>
+						<div class="homeCompanyBox__button"><a href="<?php echo home_url(); ?>/data">データで見る参加企業へ</a></div>
+					<!-- /.homeCompanyBox__buttonBox --></div>
+				<!-- /.homeCompanyBox__inner --></div>
+			<!-- /.inBase --></div>
+		<!-- /.homeCompanyBox --></div>
+
+		<div class="homeMessageBox">
+			<div class="inBase clearfix">
+				<div class="homeMessageBox__title"><h3><img src="img/home/titleVoice.svg" alt="先輩の声" /></h3></div>
+			<!-- /.inBase --></div>
+
+
+			<!-- スライダーここから -->
+			<div class="sliderBox--typeBasic">
+			<div class="inBase">
+			<!-- Slider全体のコンテナ -->
+			<div class="swiper">
+			    <!-- Sliderの内包コンテナ -->
+			    <div class="swiper-wrapper">
+			        <!-- Slideさせたいコンテンツ -->
+				<div class="swiper-slide">
+					<div class="homeMessageBox__message"><a href="#">
+						<figure class="homeMessageBox__image"><img src="img/home/imgVoiceSample.jpg" alt="兵庫の社会人の先輩" /></figure>
+						<h4 class="homeMessageBox__comment"><span>一言コメントが入ります一言コメントが入ります一言コメントが入ります</span></h4>
+						<p class="homeMessageBox__sentence">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+					</a><!-- /.homeMessageBox__buttonBox --></div>
+				<!-- /.swiper-slide --></div>
+
+				<div class="swiper-slide">
+					<div class="homeMessageBox__message"><span>
+						<figure class="homeMessageBox__image"><img src="img/home/imgVoiceSample.jpg" alt="兵庫の社会人の先輩" /></figure>
+						<h4 class="homeMessageBox__comment"><span>一言コメントが入ります一言コメントが入ります一言コメントが入ります</span></h4>
+						<p class="homeMessageBox__sentence">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+					</span><!-- /.homeMessageBox__buttonBox --></div>
+				<!-- /.swiper-slide --></div>
+
+				<div class="swiper-slide">
+					<div class="homeMessageBox__message"><span>
+						<figure class="homeMessageBox__image"><img src="img/home/imgVoiceSample.jpg" alt="兵庫の社会人の先輩" /></figure>
+						<h4 class="homeMessageBox__comment"><span>一言コメントが入ります一言コメントが入ります一言コメントが入ります</span></h4>
+						<p class="homeMessageBox__sentence">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+					</span><!-- /.homeMessageBox__buttonBox --></div>
+				<!-- /.swiper-slide --></div>
+
+				<div class="swiper-slide">
+					<div class="homeMessageBox__message"><span>
+						<figure class="homeMessageBox__image"><img src="img/home/imgVoiceSample.jpg" alt="兵庫の社会人の先輩" /></figure>
+						<h4 class="homeMessageBox__comment"><span>一言コメントが入ります一言コメントが入ります一言コメントが入ります</span></h4>
+						<p class="homeMessageBox__sentence">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+					</span><!-- /.homeMessageBox__buttonBox --></div>
+				<!-- /.swiper-slide --></div>
+
+				<div class="swiper-slide">
+					<div class="homeMessageBox__message"><span>
+						<figure class="homeMessageBox__image"><img src="img/home/imgVoiceSample.jpg" alt="兵庫の社会人の先輩" /></figure>
+						<h4 class="homeMessageBox__comment"><span>一言コメントが入ります一言コメントが入ります一言コメントが入ります</span></h4>
+						<p class="homeMessageBox__sentence">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+					</span><!-- /.homeMessageBox__buttonBox --></div>
+				<!-- /.swiper-slide --></div>
+
+			    <!-- /.swiper-wrapper --></div>
+			    <!-- ページネーション（※省略可）
+			    <div class="swiper-pagination"></div>
+			    <!-- ナビゲーションボタン（※省略可） -->
+
+			<!-- /.swiper --></div>
+			<!-- Sliderここまで -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			<!-- /.inBase --></div>
+			<!-- /.sliderBox--typeBasic --></div>
+			<!-- スライダーここまで -->
+
+
+
+
+
+
+			<div class="inBase"><div class="inBase__inner clearfix">
+				<div class="button--type01 tR"><a href="<?php echo home_url(); ?>/company">企業一覧ページへ</a></div>
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /.homeMessageBox --></div>
+
+		<div class="homePageBox">
+			<div class="inBase"><div class="inBase__inner clearfix">
+				<div class="homePageBox__inner">
+					<div class="homePageBox__button"><a href="<?php echo home_url(); ?>/">
+						<figure class="homeMessageBox__icon"><img src="img/home/iconSchedule.svg" alt="カレンダー" /></figure>
+						<span><small>ひょうご就職サミット2025</small><br>スケジュール</span>
+					</a><!-- /homePageBox__button --></div>
+					<div class="homePageBox__button"><a href="<?php echo home_url(); ?>/">
+						<figure class="homeMessageBox__icon"><img src="img/home/iconAccess.svg" alt="アクセス" /></figure>
+						<span>開催場所・アクセス</span>
+					</a><!-- /homePageBox__button --></div>
+					<div class="homePageBox__button"><a href="<?php echo home_url(); ?>/">
+						<figure class="homeMessageBox__icon"><img src="img/home/iconQuestion.svg" alt="質問" /></figure>
+						<span>よくあるご質問</span>
+					</a><!-- /homePageBox__button --></div>
+					<div class="homePageBox__button"><a href="<?php echo home_url(); ?>/">
+						<figure class="homeMessageBox__icon"><img src="img/home/iconGroup.svg" alt="グループ" /></figure>
+						<span>運営団体</span>
+					</a><!-- /homePageBox__button --></div>
+				<!-- /.homePageBox__inner --></div>
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /.homePageBox --></div>
+
+			<div class="homeContactBox">
+				<div class="inBase"><div class="inBase__inner">
+					<div class="homeContactBox__contactBox">
+						<p class="homeContactBox__fromHere"><img src="img/home/wordFromHere.svg" alt="事前参加予約はこちらから！" /></p>
+						<p class="homeContactBox__future"><img src="img/home/wordFuture.svg" alt="その一歩であなたの未来は変わる。後悔しない就活を！" /></p>
+						<div class="homeContactBox__buttonBox">
+							<div class="homeContactBox__button"><a href="https://lin.ee/D0ZioFk">
+						                <figure><img src="img/home/iconLine.svg" alt="LINE" /></figure>
+						                <span>LINEで相談する</span>
+							</a></div>
+							<div class="homeContactBox__button"><a href="<?php echo home_url(); ?>/contact">
+						                <i class="fa fa-fw icon-file-text"></i>
+						                <span>フォームで参加予約</span>
+							</a></div>
+						<!-- /.homeContactBox__buttonBox --></div>
+						<div class="homeContactBox__person">
+							<figure><img src="img/home/imgContactPerson.png" alt="希望を持てた兵庫の就職活動中の学生" /></figure>
+							<span><img src="img/home/fukidashiReservation.png" alt="60秒で完了　今すぐ参加予約！" /></span>
+						<!-- /.homeContactBox__person --></div>
+						<h5 class="homeContactBox__afterSentence"><strong>先着100名様限定</strong><span><b>事前エントリー</b><small>で</small>最大6,000円分<small>の</small>AMAZONギフトカード<small>プレゼント</small>！</span><figure><img src="img/home/imgPresent.svg" alt="プレゼント" /></figure></h5>
+					<!-- /.homeContactBox__contactBox --></div>
+				<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+			<!-- /.homeContactBox --></div>
+
+		<div class="homeBlogBox">
+			<h3 class="homeBlogBox__title"><img src="img/home/titleBlog.svg" alt="就活お役立ちブログ" /></h3>
+			<div class="inBase">
+				<div class="homeBlogBox__inner">
+					<div class="homeBlogBox__banner">
+						<a href="<?php echo home_url(); ?>/"><img src="img/home/bannerBlog01.jpg" alt="合同説明会は行ったほうがいいの？参加するメリットデメリットをご紹介！" /></a>
+					<!-- /.homeBlogBox__banner --></div>
+					<div class="homeBlogBox__banner">
+						<a href="<?php echo home_url(); ?>/"><img src="img/home/bannerBlog02.jpg" alt="後悔しない就活　7つのコツ" /></a>
+					<!-- /.homeBlogBox__banner --></div>
+					<div class="homeBlogBox__banner">
+						<a href="<?php echo home_url(); ?>/"><img src="img/home/bannerBlog03.jpg" alt="やりたい仕事を見つけるには？" /></a>
+					<!-- /.homeBlogBox__banner --></div>
+					<div class="homeBlogBox__banner">
+						<a href="<?php echo home_url(); ?>/"><img src="img/home/bannerBlog04.jpg" alt="2025年度！兵庫県の合同説明会情報" /></a>
+					<!-- /.homeBlogBox__banner --></div>
+					<div class="homeBlogBox__banner">
+						<a href="<?php echo home_url(); ?>/">
+							<picture>
+								<source srcset="img/home/bannerBlog05.jpg" media="(min-width: 768px)">
+								<img src="img/home/bannerBlog05_sp.jpg" alt="大企業だけが全てじゃない　中小企業の本当の魅力　就活生必見！">
+							</picture>
+						</a>
+					<!-- /.homeBlogBox__banner --></div>
+				<!-- /.homeBlogBox__inner --></div>
+				<figure class="homeBlogBox__personImage01"><img src="img/home/imgIllustPerson05.png" alt="ひょうご就職サミット2026" /></figure>
+			<!-- /.inBase --></div>
+			<p class="homeBlogBox__sentence"><span>TEXTTEXT</span>テキストテキストテキストテキストテキストテキスト</p>
+			<div class="inBase"><div class="inBase__inner clearfix">
+				<div class="homeBlogBox__articleBox is--sliderBox">
+
+					<!-- スライダーここから -->
+					<div class="sliderBox--typeChangeSlide">
+					<!-- Slider全体のコンテナ -->
+					<div class="swiper">
+					 <!-- Sliderの内包コンテナ -->
+					<div class="swiper-wrapper">
+						<!-- Slideさせたいコンテンツ -->
+						<div class="swiper-slide">
+							<div class="homeBlogBox__article"><a href="#">
+								<figure class="homeBlogBox__articleImage"><img src="img/home/imgBlogSample.jpg" alt="ブログサンプル写真" /></figure>
+								<p class="homeBlogBox__date">2025.00.00</p>
+								<p class="homeBlogBox__articleTitle">テキストテキストテキストテキストテキストテキスト</p>
+							</a><!-- /.homeBlogBox__article --></div>
+						<!-- /.swiper-slide --></div>
+						<div class="swiper-slide">
+							<div class="homeBlogBox__article"><a href="#">
+								<figure class="homeBlogBox__articleImage"><img src="img/home/imgBlogSample.jpg" alt="ブログサンプル写真" /></figure>
+								<p class="homeBlogBox__date">2025.00.00</p>
+								<p class="homeBlogBox__articleTitle">テキストテキストテキストテキストテキストテキスト</p>
+							</a><!-- /.homeBlogBox__article --></div>
+						<!-- /.swiper-slide --></div>
+						<div class="swiper-slide">
+							<div class="homeBlogBox__article"><a href="#">
+								<figure class="homeBlogBox__articleImage"><img src="img/home/imgBlogSample.jpg" alt="ブログサンプル写真" /></figure>
+								<p class="homeBlogBox__date">2025.00.00</p>
+								<p class="homeBlogBox__articleTitle">テキストテキストテキストテキストテキストテキスト</p>
+							</a><!-- /.homeBlogBox__article --></div>
+						<!-- /.swiper-slide --></div>
+
+					<!-- /.swiper-wrapper --></div>
+					<!-- ナビゲーションボタン（※省略可） -->
+					<!--<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>-->
+
+					<!-- /.swiper --></div>
+					<!-- Sliderここまで -->
+					<!-- /.sliderBox--typeChangeSlide --></div>
+					<!-- スライダーここまで -->
+
+				<!-- /.homeBlogBox__articleBox --></div>
+				<div class="button--type01 tR"><a href="<?php echo home_url(); ?>/blog">一覧ページへ</a></div>
+				<figure class="homeBlogBox__personImage02"><img src="img/home/imgIllustPersons04.png" alt="ひょうご就職サミット2026" /></figure>
+			<!-- /.inBase__inner --></div><!-- /.inBase --></div>
+		<!-- /.homeBlogBox --></div>
+
+		<div class="homeBottomFlowBox">
+				<!-- スライダーここから -->
+				<div class="sliderBox--typeFlow02">
+				    <!-- Slider全体のコンテナ -->
+				    <div class="swiper">
+				      <!-- Sliderの内包コンテナ -->
+				      <div class="swiper-wrapper">
+				        <!-- Slideさせたいコンテンツ -->
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow01.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow02.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow03.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow04.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow05.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow01.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow02.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow03.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow04.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow05.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow01.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow02.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow03.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow04.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow05.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow01.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow02.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow03.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow04.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+					<div class="swiper-slide"><figure><img src="img/home/imgFlow05.jpg" alt="ひょうご就職サミット2026" /></figure></div>
+				      <!-- /swiper-wrapper --></div>
+				    <!-- /swiper --></div>
+				<!-- /.sliderBox--typeFlow --></div>
+				<!-- スライダーここまで -->
+		<!-- /.homeBottomFlowBox --></div>
+
+	<!-- /#contents --></div>
+
+	
+	<footer id="footer">
+		<div class="inBase clearfix">
+        		<ul class="footer__navi">
+				<li><a href="<?php echo home_url(); ?>/overview">スケジュール</a></li>
+				<li><a href="<?php echo home_url(); ?>/overview">開催場所・アクセス</a></li>
+				<li><a href="<?php echo home_url(); ?>/voice">先輩参加者の声</a></li>
+				<li><a href="<?php echo home_url(); ?>/data">データで見る就活</a></li>
+				<li><a href="<?php echo home_url(); ?>/blog">就活お役立つブログ</a></li>
+				<li><a href="<?php echo home_url(); ?>/organization">運営団体</a></li>
+			</ul>
+		<!-- /.inBase --></div>
+	<!-- /#footer --></footer>
+
+	<small class="copyright"> &copy; 2016 ひょうご就職サミット2026. All Rights Reserved.</small>
+        
+	<p id="btnRise"><a href="#wrapper"><i class="icon-chevron-up"></i><span>ページ上部に戻る</span></a></p>
+	  
+	<div id="btnTelEmpty"></div>
+    
+	<div id="btnPageBottom">
+	        <div class="btnPageBottom--btn">
+	            <a class="clearfix" href="#">
+	                <figure><img src="img/home/iconLine.svg" alt="LINE" /></figure>
+	                <span>LINEで相談する</span>
+	            </a>
+	            <a class="clearfix" href="<?php echo home_url(); ?>/contact">
+	                <figure><img src="img/home/iconNote.svg" alt="フォーム" /></figure>
+	                <span>フォームで参加予約</span>
+	            </a>
+	        <!-- /.btnPageBottom--btn --></div>
+	<!-- /#btnPageBottom --></div>
+<!-- /#wrapper --></div>
+
+</body>
+</html>
+
+<script data-main="js/main" src="js/require.js"></script>
